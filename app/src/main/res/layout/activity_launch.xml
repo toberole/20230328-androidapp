@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <Button
+            android:textColor="#0F0F0F"
             android:id="@+id/btn_test1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

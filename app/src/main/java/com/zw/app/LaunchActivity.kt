@@ -1,10 +1,10 @@
 package com.zw.app
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.zw.app.activity.Test1Activity
 
 class LaunchActivity : AppCompatActivity(), View.OnClickListener {
