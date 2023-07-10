@@ -5,6 +5,7 @@ import android.app.Application;
 
 public class App extends Application {
     static {
+        System.loadLibrary("wasmedge");
         System.loadLibrary("app");
     }
 
