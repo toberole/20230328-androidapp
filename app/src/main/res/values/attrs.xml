@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="MyView">
-        <attr name="mPaint" format="dimension" />
+    <declare-styleable name="MagicView">
+<!--        <attr name="radius" format="dimension" />-->
+<!--        <attr name="colors" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="AcousticInfoView">
+        <attr name="radius" format="dimension" />
+        <attr name="colors" format="reference" />
+        <attr name="update_interval" format="integer" />
     </declare-styleable>
 </resources>

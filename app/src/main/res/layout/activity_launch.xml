@@ -14,12 +14,21 @@
         android:orientation="vertical">
 
         <Button
-            android:textColor="#0F0F0F"
             android:id="@+id/btn_test1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="test1"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#0F0F0F" />
+
+        <Button
+            android:id="@+id/btn_wasm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wasm"
+            android:textAllCaps="false"
+            android:textColor="#0F0F0F" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </ScrollView>

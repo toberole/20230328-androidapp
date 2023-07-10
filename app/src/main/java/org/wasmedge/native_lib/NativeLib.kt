@@ -1,4 +1,4 @@
-package com.zw.app
+package org.wasmedge.native_lib
 
 import android.content.Context
 
@@ -7,7 +7,7 @@ class NativeLib(ctx : Context) {
 
     companion object {
         init {
-            System.loadLibrary("wasmedge_lib")
+            System.loadLibrary("wasmedge")
         }
     }
 
